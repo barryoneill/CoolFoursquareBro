@@ -1,0 +1,24 @@
+# sample configuration for CoolFoursquareBro module
+
+# [required] taken from your twitter developer app page
+twitter_consumer_key: abcde12345abcde12345
+twitter_consumer_secret: abcde12345abcde12345abcde12345abcde12345
+twitter_access_token: abcde12345abcde12345abcde12345abcde12345abcde12345
+twitter_access_token_secret: abcde12345abcde12345abcde12345abcde12345abcde123
+
+# [required] stores the last seen tweet info (created on first run)
+db: /tmp/file.db
+
+# [required] the victim's twitter id (use http://gettwitterid.com/ to look up)
+target_userid: 12345678
+
+# [optional] useful on the first run/testing, prevents responses to tweets older than this id
+# lastseen_startval: 0
+
+# [optional] default response text text
+coolstory_responsedefault: cool story, bro
+
+# [optional] if the tweet text contains one of these keys, the value will be used instead
+coolstory_responses:
+  McDonald\'s: cool diet, bro
+  deli: cool sandwich, bro
