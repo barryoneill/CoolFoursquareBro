@@ -1,13 +1,8 @@
 # CoolFoursquareBro #
 
-This is a python twitter bot, written in Python, inspired by the following tweet by the ever-amusing [@iamdevloper](https://twitter.com/iamdevloper/]): 
+This is a python twitter bot, written in Python, inspired by the following tweet by the ever-amusing [@iamdevloper](https://twitter.com/iamdevloper]): 
 
-```html
-
-<blockquote class="twitter-tweet"><p>if (Tweet.text.indexOf(&quot;I&#39;m at&quot;) &gt; -1 &amp;&amp; Tweet.text.indexOf(&quot;<a href="http://t.co/u2n2MkLpOI">http://t.co/u2n2MkLpOI</a>&quot;) &gt; -1){&#10; return &quot;@&quot;+Tweet.author+&quot; cool story bro&quot;&#10;}</p>&mdash; I Am Devloper (@iamdevloper) <a href="https://twitter.com/iamdevloper/statuses/400696778196275200">November 13, 2013</a></blockquote>
-<script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-```
+[![@iamdevloper](http://barryoneill.net/coolfoursquarebro_tweetref.png)](https://twitter.com/iamdevloper/statuses/400696778196275200)
 
 This module queries the target user's recent tweets, and if any are determined to be foursquare 
 noise, they get responded to in the manner above (the messages are configurable!)
@@ -53,7 +48,7 @@ who's a foursquare fan  (and has a good sense of humour).  It's up to you to mak
         # [required] the victim's twitter id (use http://gettwitterid.com/ to look up)
         'target_userid': 12345678,
 
-        # [optional] useful on the first run/testing, prevents responses to tweets older than this id
+        # [optional] useful for first run/testing, prevents responses to tweets older than this id
         # 'lastseen_startval': 0,
 
         # [optional] default response text text
