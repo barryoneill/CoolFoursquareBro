@@ -11,7 +11,7 @@ noise, they get responded to in the manner above (the messages are configurable!
 
 I wrote this script to get a bit more python practice, and also to have a bit of fun with a friend 
 who's a foursquare fan  (and has a good sense of humour).  It's up to you to make sure that you
-**don't use this script in a spammy/harassing way, and in a way that obeys 
+**don't use this script in a spammy/harassing way.  Also ensure that you call it in a way that obeys 
 [Twitter's T&C](https://dev.twitter.com/terms/api-terms)**. :hear_no_evil:   
 
 
@@ -80,8 +80,8 @@ Here's a sample cron entry to run the bot every 2 minutes (watch out for
 	*/2 * * * * /usr/bin/python /path/to/runner.py >> /path/to/runner.log 2>&1
 	
 It will look for a file called **coolfoursquarebro.yaml** in your home directory, 
-but you could also use the **-c /path/to/config.yaml** argument.   The configuration is the same,
-as the above, except it's in yaml format:
+but you may override that with the **-c /path/to/config.yaml** argument.   The configuration 
+is the same as the hardcoded dictionary in the above code snippet, except that it's  in yaml format:
 
 	# [required] taken from your twitter developer app page
 	twitter_consumer_key: abcde12345abcde12345
