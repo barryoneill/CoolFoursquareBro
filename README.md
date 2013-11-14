@@ -61,12 +61,10 @@ who's a foursquare fan  (and has a good sense of humour).  It's up to you to mak
         }
     }
 
-
-	....
 	
-    bot = coolfoursquarebro.CoolFoursquareBro(conf)
-	
-    bot.cool_story_bro()  # supply dry_run=True for testing
+    bot = CoolFoursquareBro(conf)
+	 	
+    bot.cool_story_bro()  # dry_run=True for testing 
 }
 
 ```
