@@ -1,6 +1,6 @@
 # CoolFoursquareBro #
 
-This is a python twitter bot, written in Python, inspired by the following tweet by the ever-amusing [@iamdevloper](https://twitter.com/iamdevloper]): 
+This is a python twitter bot, written in Python, inspired by the following tweet by the ever-amusing [@iamdevloper](https://twitter.com/iamdevloper]) : 
 
 [![@iamdevloper](http://barryoneill.net/coolfoursquarebro_tweetref.png)](https://twitter.com/iamdevloper/statuses/400696778196275200)
 
