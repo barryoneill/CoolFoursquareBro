@@ -72,7 +72,7 @@ who's a foursquare fan  (and has a good sense of humour).  It's up to you to mak
 ### Scheduling the Bot ###
 
 While the above could be shoved in a *while*/*sleep* loop, I also wrote **runner.py** to run the
-bot from a cron job, reading the config from a file and doing propriate logging. 
+bot from a cron job, reading the config from a file and doing appropriate logging. 
 
 Here's a sample cron entry to run the bot every 2 minutes (watch out for 
 [Twitter's rate limiting rules](https://dev.twitter.com/docs/rate-limiting/1.1)!):
