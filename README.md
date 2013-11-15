@@ -103,7 +103,7 @@ is the same as the hardcoded dictionary in the above code snippet, except that i
 	
 	# [optional] if the tweet text contains one of these keys, the value will be used instead
 	coolstory_responses:
-	  McDonald\'s: cool diet, bro
+	  McDonald's: cool diet, bro
 	  deli: cool sandwich, bro
 	
 
