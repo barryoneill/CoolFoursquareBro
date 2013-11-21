@@ -2,7 +2,7 @@
 
 This is a python twitter bot, inspired by the following tweet by the ever-amusing [@iamdevloper](https://twitter.com/iamdevloper): 
 
-[![@iamdevloper](http://barryoneill.net/coolfoursquarebro_tweetref.png)](https://twitter.com/iamdevloper/statuses/400696778196275200)
+[![@iamdevloper](http://barryoneill.github.io/CoolFoursquareBro/coolfoursquarebro_tweetref.png)](https://twitter.com/iamdevloper/statuses/400696778196275200)
 
 This module queries the target user's recent tweets, and if any are determined to be foursquare 
 noise, they get responded to in the manner above (the messages are configurable!)
